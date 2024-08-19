@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "LetteraMonoLL-Regular";
+    src:url(Fonts/LetteraMonoLL-Regular.otf);
+}
+@font-face {
+    font-family:"Ndot-55" ;
+    src:url(Fonts/Ndot-55.otf);
+}
+@font-face {
+    font-family:"NType82" ;
+    src: url(Fonts/NType82-Headline.otf);
+}
+@font-face {
+    font-family:"NType82-Regular";
+    src: url(Fonts/NType82-Regular.otf);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar-brand{
+    font-family: "Ndot-55";
+    font-size: 32px;
+}
+
+/* removing focus border and border of toggle button */
+
+.navbar-toggler{
+    margin: 0;
+    border: none;
+}
+
+.navbar-toggler:focus{
+  box-shadow: none;
+}
+
+.nav-link{
+    font-family: "NType82-bold";
+    font-size: 18px;
+    color: black;
+    font-weight: 400;
+}
+.row-1{
+  background: url(media/phone-2a-plus.webp);
+  background-size: cover;
+  background-position: center;
+  background-repeat:no-repeat ;
+  
+}
+.row-1 > h2{
+    font-family: Ndot-55;
+    font-size: 120px;
+    writing-mode: vertical-lr;
+    text-wrap: nowrap;
+    color: white;
+}
+.button{
+    display: block;
+}
