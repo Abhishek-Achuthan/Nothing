@@ -1,3 +1,5 @@
+/* Added fonts */
+
 @font-face {
     font-family: "LetteraMonoLL-Regular";
     src:url(Fonts/LetteraMonoLL-Regular.otf);
@@ -19,12 +21,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 .navbar-brand{
     font-family: "Ndot-55";
     font-size: 32px;
 }
 
-/* removing focus border and border of toggle button */
+/* removed focus border and border of toggle button */
 
 .navbar-toggler{
     margin: 0;
@@ -75,6 +78,9 @@ button{
         height: 90vh;
     }
 }
+
+/* Main section background images */
+
 .row-sec{
     height: 90vh;
 }
