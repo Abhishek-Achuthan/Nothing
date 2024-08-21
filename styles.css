@@ -22,6 +22,15 @@
     box-sizing: border-box;
 }
 
+/* set nav bar fixed */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    background-color: white;
+    width: 100vw;
+}
+
 .navbar-brand{
     font-family: "Ndot-55";
     font-size: 32px;
